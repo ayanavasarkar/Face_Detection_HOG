@@ -9,8 +9,8 @@ from sklearn.externals import joblib
 
 
 array=np.array([])	#empty array for storing all the features
-h = 128
-w = 64
+h = 128			#height of the image
+w = 64			#width of the image
 hog=cv2.HOGDescriptor()
 img=cv2.imread('image1048.tif',0)
 img1=cv2.imread('image1049.tif',0)
