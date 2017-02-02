@@ -15,7 +15,7 @@ hog=cv2.HOGDescriptor()
 img=cv2.imread('image1048.tif',0)
 img1=cv2.imread('image1049.tif',0)
 
-img=cv2.resize(img, (w, h), interpolation=cv2.INTER_CUBIC)
+img=cv2.resize(img, (w, h), interpolation=cv2.INTER_CUBIC)	#resize images
 img1=cv2.resize(img1, (w, h), interpolation=cv2.INTER_CUBIC)
 for i in range(0,2):
 	if i==0:
